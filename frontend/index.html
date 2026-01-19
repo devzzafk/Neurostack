@@ -4,7 +4,17 @@
   <title>NeuroStack</title>
 </head>
 <body>
-  <h1>Hey there</h1>
-  <p> loading...</p>
+  <h1>NeuroStack 🧠</h1>
+  <p>Professional BCI website starting...</p>
+
+  <select id="stateSelect">
+    <option value="Focused">Focused</option>
+    <option value="Relaxed">Relaxed</option>
+    <option value="Fatigued">Fatigued</option>
+  </select>
+  <button onclick="runBCI()">Run Simulation</button>
+
+  <pre id="output">Brain state will appear here...</pre>
+
+  <script src="app.js"></script>
 </body>
-</html>
